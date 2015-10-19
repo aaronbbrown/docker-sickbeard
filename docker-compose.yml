@@ -1,0 +1,7 @@
+sickbeard:
+  build: .
+  volumes:
+  - ./data/sickbeard_config:/config
+  - ./data/sickbeard_data:/data
+  ports:
+  - "8081:8081"

@@ -1,5 +1,5 @@
-FROM timhaak/base:latest
-MAINTAINER tim@haak.co.uk
+FROM ubuntu:14.04
+MAINTAINER aaron@9minutesnooze.com
 
 ENV SICKBEARD_VERSION master
 
